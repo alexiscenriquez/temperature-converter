@@ -1,6 +1,5 @@
 body{
-    background-image: url("background.svg");
-    background-size: cover;
+    background-color:#F29F05;
 }
 
 #convert{
@@ -11,25 +10,35 @@ body{
     height:40px;
 }
 input,select{
-    height: 40px;
+    height: 30px;
+    text-align: center;
+
+}
+#deg{
+
+    width:100px;
     
 }
-
 .wrapper{
     padding:25px 10px 10px 10px;
     margin:auto;
+    
     width:400px;
-display: flexbox;
+display: flex;
 font-family: Arial, Helvetica, sans-serif;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+flex-wrap: wrap;
+justify-items: center;
+justify-content: space-around;
 background-color: white;
 box-shadow: 3px 3px 4px 0 rgb(194, 194, 194);
     margin-top:100px;
-    height: 180px;
+    height: 150px;
+    width:300px;
 
 }
+
 
 label{
     color:grey;
@@ -68,4 +77,6 @@ display: inline-block;
 
 #result{
     margin-bottom: 10px;
+ 
+   text-align:left;
 }
